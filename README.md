@@ -4,7 +4,8 @@ Using Java for the Spring and React for the Back end using the model of concept 
 Using tools as Spring Boot making this project for the Full Stack propose
 https://spring.io/projects/spring-boot
 
-Using in the Front End React coding in JavaScript 
+Using in the Front End React coding in JavaScript this is the View
+the good of React is that you can use material and has a great tools to use
 
 https://reactjs.org
 
