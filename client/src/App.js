@@ -5,11 +5,17 @@ import './App.css';
 function App() {
     return (
 
-        <
-        div >
-
-        <
-        /div>
+        <div className='container-fluid'>
+            <nav>
+                <div className="nav-wrapper center-align">
+                    <a hfref="/" className="brand-log">Contacts</a>
+                </div>
+            </nav>
+            <div className="row">
+            <Contacts/>
+            </div>
+            
+        </div>
 
 
     );
