@@ -1,17 +1,37 @@
-impot React { Componets }
-from 'react';
+import React, {Component} from 'react';
+import SingleContact from './SingleContact';
+import AddContacts from './AddContacts';
 
-export default class Contacts extendes Components {
+export default class Contacts extends Components {
 
     Constructor(props) {
         super(props);
         this.state = {
+            // for the array of contacts
             contacts: [],
         }
     }
+//this method is fetching the data 
+    componentDidMount() {
+        fetch('http//localhost/8080')
+        .then(response => response.json())
+        .then(data => this.setState({contacts:data}))
+    }
+
+
     redender() {
-        return ( <
-            div > hello < /div>
+        return ( 
+    <div>
+        <div className="row">
+            <AddContacts/>
+        </div>
+        <div className="row">
+            {this.state.contacts.map((item)=> {
+                <SingleContact key={item.id} item={item}/>
+            })}
+        </div>
+     </div>
+        
         )
     }
 }
