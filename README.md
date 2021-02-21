@@ -13,6 +13,10 @@ https://reactjs.org
 ## Get Post
 This makes the GET requests easily cacheable and browsers usually treat them as such. We can also make our POST requests cacheable using Cache-Control and Expires headers.
 
+In this article I have tried to express why I value REST and why I believe you should value it as well. I hope that after reading this, the reasons to apply REST standards are now more clear to you.
+
+This article can serve as a motivation to learn more about the topic. And I have some good news: I am planning to write about REST Best Practices and common mistakes in the near future.
+
 ## Using Node 
 
 https://nodejs.org/en/
