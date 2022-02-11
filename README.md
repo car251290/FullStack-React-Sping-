@@ -9,6 +9,11 @@ the good of React is that you can use material and has a great tools to use
 
 https://reactjs.org
 
+JdbcTemplate example to retrieve a Custom Object from the database
+If your SQL query is going to return a user object like Employee, Order, or anything domain-specific then you need to provide a RowMapper implementation to queryForObject() method. This mapper will tell the JdbcTempalte how to convert the ResultSet into a custom object. Here is an example of retrieving a custom object.
+
+Read more: https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html#ixzz7KY4lTq5Y
+
 
 ## Get Https
 This makes the GET requests easily cacheable and browsers usually treat them as such. We can also make our.
