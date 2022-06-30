@@ -25,6 +25,17 @@ This article can serve as a motivation to learn more about the topic. And I have
 ## Post Https
 Https calls as get,put,update,delete
 
+The PUT Method
+PUT is used to send data to a server to create/update a resource.
+
+The difference between POST and PUT is that PUT requests are idempotent. That is, calling the same PUT request multiple times will always produce the same result. In contrast, calling a POST request repeatedly have side effects of creating the same resource multiple times.
+
+The HEAD Method
+HEAD is almost identical to GET, but without the response body.
+
+In other words, if GET /users returns a list of users, then HEAD /users will make the same request but will not return the list of users.
+
+HEAD requests are useful for checking what a GET request will return before actually making a GET request - like before downloading a large file or response body.
 ## Using Node 
 
 https://nodejs.org/en/
