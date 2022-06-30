@@ -23,7 +23,7 @@ In this article I have tried to express why I value REST and why I believe you s
 This article can serve as a motivation to learn more about the topic. And I have some good news: I am planning to write about REST Best Practices and common mistakes in the near future.
 
 ## Post Https
-Https calls as get,put,update,delete
+Https calls as get,path,post,delete
 
 The PUT Method
 PUT is used to send data to a server to create/update a resource.
@@ -33,6 +33,12 @@ The difference between POST and PUT is that PUT requests are idempotent. That is
 The HEAD Method
 HEAD is almost identical to GET, but without the response body.
 
+The DELETE Method
+The DELETE method deletes the specified resource.
+
+The PATCH Method
+The PATCH method is used to apply partial modifications to a resource.
+
 In other words, if GET /users returns a list of users, then HEAD /users will make the same request but will not return the list of users.
 
 HEAD requests are useful for checking what a GET request will return before actually making a GET request - like before downloading a large file or response body.
@@ -41,6 +47,6 @@ HEAD requests are useful for checking what a GET request will return before actu
 https://nodejs.org/en/
 
 ## Postman 
-Postman to check the HTTPS call as get, put, update, delate.
+Postman to check the HTTPS call as get, patch,post, delate.
 
 
