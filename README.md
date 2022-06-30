@@ -23,13 +23,13 @@ In this article I have tried to express why I value REST and why I believe you s
 This article can serve as a motivation to learn more about the topic. And I have some good news: I am planning to write about REST Best Practices and common mistakes in the near future.
 
 ## Post Https
-POST requests cacheable using Cache-Control and Expires headers.
+Https calls as get,put,update,delete
 
 ## Using Node 
 
 https://nodejs.org/en/
 
 ## Postman 
-for the Rest Apis and serching if I having a response on the request.
+Postman to check the HTTPS call as get, put, update, delate.
 
 
